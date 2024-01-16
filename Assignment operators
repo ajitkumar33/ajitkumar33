@@ -1,0 +1,133 @@
+# compound assignment operator
+
+a = 50
+a-=10
+print(a) # 40
+
+a= 100
+a$=5
+print(a) # 4
+
+a= 20
+a^=5
+print(a) # 17
+
+a= 20
+a<<=5
+print(a) # 640
+
+a= 100
+a>>=10
+print(a) #0
+
+
+# ternary operator 
+
+a = 35 if 35 > 50 else 50
+print(a) # 50
+
+a = 40 if 40 < 90 else 90
+print(a) # 40
+
+a = 55 if 55 > 90 else 90
+print(a) # 90
+
+a = 77 if 77 > 66 else 66
+print(a) # 77
+
+a = 33 if 33 < 66 else 66
+print(a) # 33
+
+# identity operator 
+
+a = 20 
+b = 30
+print(a is b) #false
+
+a = 30 
+b = 30 
+print(a is b) # true
+
+a = 10
+b = 20
+print(a is not b) # true
+
+a = 50
+b = 33
+print(a is b) # false
+
+a = 33
+b = 22
+print(a is not b) # ture
+
+#menbership check 
+
+a = [10,20,30,40]
+print(50 in 1) # false
+
+a = [10,20,30,40]
+print(30 in l) # true
+
+a = [10,20,30,40]
+print(70 in l) # false
+
+a = [10,20,30,40,50]
+print(10 in l) # true
+
+a = [10,20,30,40,50]
+print(100 in l) # false
+
+
+#input and output operator
+
+a = int(input("enter the first number")) #100
+b = int(input("enter the second number")) #200
+print(type(a)) #str
+print(type(b)) #str
+print(a+b) # 300
+
+a = int(input("enter the first number")) #155
+b = int(input("enter the second number")) #29
+print(type(a)) #str
+print(type(b)) #str
+print(a+b) # 184
+
+
+a = input("enter the first number:") # 20+20+20
+r = eval(a)
+print(r) # enter the first number:20+20+20 # 60
+
+
+a = input("enter the first number:") # 20+30+50
+r = eval(a)
+print(r)  # enter the first number:20+30+50  # 100
+
+b = 30
+a = input("enter the first number:") # 10+40+b
+r = eval(a)
+print(r) enter the first number:10+40+b # 80
+
+
+
+# Dot notation 
+
+name = "Raina"
+age = 25
+batsman = " left hand"
+
+print("hello my name is {} and my {} is i am {} batsman".format(name,age,batsman)
+
+name = "Raina"
+age = 25
+batsman = " left hand"
+
+print("hello my name is {1} and my {2} is i am {3} batsman".format(name,age,batsman)
+
+name = "Raina"
+age = 25
+batsman = " left hand"
+
+print("hello my name is {a} and my {b} is i am {c} batsman".format(name,age,batsman)
+
+
+
