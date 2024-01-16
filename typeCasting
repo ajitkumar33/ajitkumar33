@@ -1,0 +1,33 @@
+# typecasting 
+
+#string
+#int
+#float
+#boolean
+
+#int 
+
+a = "123" #string
+print(type(a)) #123
+
+b = "456" #string
+print(type(a)) # 456
+
+#string
+a = 1234 #Number
+print(type(a)) # 1234
+
+
+#float
+
+b = 333.333 #float
+print(type(b)) # 333
+
+#boolean 
+
+c = True #bool
+print(type(c)) # True
+
+
+
+
