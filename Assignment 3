@@ -1,0 +1,123 @@
+#1. Calculate the sum of all numbers from 1 to a given number.
+
+a = int(input("Enter the number: "))
+
+sum = 0
+
+for i in range(1,(2*a)+1,2):
+    sum +=i
+    print(f"sum of the first {a} odd number is: {sum}")
+
+
+
+#2. Write a program to print multiplication table of a given number.
+
+a = int(input("Enter the number: "))
+
+sum = 1
+
+for i in range(1,(2*a)+1,2):
+    sum *=i
+print(f"sum ot the first {a} odd number {sum}")
+
+
+
+#3: Display numbers from a list using loop.
+
+a = [1,2,3,4,5]
+for i in a:
+    print(i)
+
+
+
+#3: Count the total number of digits in a number.
+
+a = int(input("Enter the number: "))
+
+le = len(str(a))
+print(le)
+
+
+
+#5: Print list in reverse order using a loop.
+
+a = [10,20,30,40,50,60,70,80,90,100]
+
+for num in reversed(a):
+    print(num)
+
+
+
+##6: Display numbers from -10 to -1 using for loop.
+
+for i in range(-10,0):
+    print(i)
+
+
+#7: #Use else block to display a message “Done” after successful execution of for loop.
+
+a = [10,20,30,40,50]
+
+for num in a:
+    print(num)
+else:
+    print("Done")
+
+
+
+#8: Write a program to display all prime numbers within a range.
+
+a = int(input("Enter the number:")) 
+
+for i in range(2,a+1):
+    for j in range(2,i):
+        if i % j == 0:
+            break
+    else:
+        print(i)
+    
+
+
+#9: Reverse a given integer number.
+
+a = int(input("Enter the number: "))
+
+n = int(str(a)[::-1])
+
+print(n)
+
+
+
+#10: Use a loop to display elements from a given list present at odd index positions.
+a = [5,10,15,20,25,30]
+
+for i in range(1,len(a),2):
+    print("odd index positions",a[i])
+
+
+
+#11:Calculate the cube of all numbers from 1 to a given number.
+
+a = int(input("Enter the number: "))
+
+sum = 0
+
+for i in range(1,a+1):
+    cube = i**3
+    sum += cube
+
+    print(sum)
+
+
+
+# 12:Find the sum of the series upto n terms.
+
+a = int(input("Enter the number: "))
+
+sum = 0
+
+for i in range(1,(2*a)+1,2):
+    sum +=i
+    print(f"sum of the first {a} odd number is: {sum}")
+
+
