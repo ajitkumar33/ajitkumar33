@@ -1,0 +1,11 @@
+username = ""
+password = ""
+
+while True:
+    enter_user = input("Enter your username:")
+    enter_pass = input("Enter your password:")
+
+    if enter_user == username and enter_pass == password:
+       print("Hello aman thank you for verification")
+    else:
+      print("Incorrect username or password. Please try again")
