@@ -1,0 +1,5 @@
+#compare string elements by using sort
+
+l = ["apple", "milk", "tea"]
+sorted_list = sorted(l)
+print(sorted_list)
