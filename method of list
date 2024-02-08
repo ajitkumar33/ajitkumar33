@@ -1,0 +1,77 @@
+#append
+
+l = [10,20,30,40,50]
+l.append(70)
+print(l)
+
+
+l = [1,2,3,4,5,6,7]
+l.append(10)
+print(l)
+
+
+#insert
+
+l = [1,2,3,4,5,6,7,8]
+l.insert(4,10)
+print(l)
+
+
+l = [10,20,30,40,50,60,70]
+l.insert(3,100)
+print(l)
+
+#extend
+
+l= ["pen,pencil"]
+l1 = ["book,homework"]
+l.extend(l1)
+print(l)
+
+a = ["realme,vivo,oppo"]
+a1= ["poco,apple"]
+a.extend(a1)
+print(a)
+
+
+# pop
+
+l = [10,20,30,40,50]
+print(l.pop(0))
+
+
+l = [12,34,56,78,90,10,]
+
+print(l.pop(4))
+
+
+#remove
+
+l = [1,23,4,5,67,8,9]
+l.remove(23)
+print(l)
+
+
+l = [10,20,30,40,50,60]
+
+l.remove(40)
+print(l)
+
+
+#count
+
+l = [10,29,38,47,56]
+print(l.count(29))
+
+l = [1,23,4,5,4,67,33]
+print(l.count(4))
+
+
+# len
+
+l = [1,2,3,4,5,6,6,7,8]
+i = 0
+
+for i in l:
+    print(i)
+
