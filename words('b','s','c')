@@ -1,0 +1,8 @@
+#words=['balaya','shafi','chiru']
+#expected output/: [b,s,c]
+
+
+words=['balaya','shafi','chiru']
+
+output = [word[0] for word in words]
+print(output)
