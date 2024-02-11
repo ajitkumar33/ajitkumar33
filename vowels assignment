@@ -1,0 +1,13 @@
+#write a program to display unique vowels present in the user entered words 
+
+#vowels=['a','e','i'.'o','u']
+
+vowel_list = ['a','e','i','o','u']
+vowels = input("Enter the input: ")
+unq_vowels = set()
+
+for char in vowels:
+    for char in vowel_list:
+        unq_vowels.add(char)
+
+print("Unique vowels:", unq_vowels)
