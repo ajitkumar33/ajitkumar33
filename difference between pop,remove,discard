@@ -1,0 +1,23 @@
+#write diffrence between pop(),remove() and discard() 
+
+              pop                                             remove                                                              discard
+
+1. This method is used with sets and                   This method is used with lists and set.                            This method is used with sets
+   lists.specified to remove the                       it raises a ValueError.                                            it does nothing no error is raised.
+   element at that index.             
+
+2. Returns the removed element.                         Does not return anything.                                         Does not return anything.
+
+3. Removes and returns an ramdom                        Removes the specified element from the                            Removes the specified element from the set
+   values from the list or set.                         list or set.                                                      if elment not present.
+
+4. Requires an index argument for                       Operates without consideration of indexes                         Operates without consideration of indexes
+   lists, but not for sets.                             removes by value.                                                 removes by value.
+
+5. examples
+
+   my_list = [1,2,3,4]                                  my_list = [1,2,3,4]                                                my_set = {1,2,3,4}                                            
+   element = my_list.pop(1)                             my_list.remove(1)                                                  my_set.discard(1) 
+   print(element)                                       print(my_list)                                                     print(my_set)    
+   
+                            
