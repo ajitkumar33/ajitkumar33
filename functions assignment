@@ -1,0 +1,64 @@
+#write a func which contains some number as arg and print square of that numbers
+
+def print_square(number):
+    square = number ** 2
+    print(f"the square of {square} is: {number}")
+  
+square_number = 10
+
+print_square(square_number)
+
+
+#write a functiom given number is even or odd
+
+def number_even_odd(number):
+    if number %2 == 0:
+       print(f"is this even")
+    else:
+        print(f"is this odd")
+
+number_even_odd(11)
+number_even_odd(10)
+
+
+#write a function to find factorial of given numbers
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+find_factoraial = 5
+result = factorial(find_factoraial)
+print(f" the factoraial of {find_factoraial} is: {result}")
+
+
+#writa a profram using function for addtion  ,sub,mul,division
+
+def addition(a,b):
+    return a+b 
+
+
+def subtract(a,b):
+    return a-b 
+
+def multiply(a,b):
+    return a*b 
+
+
+def divided(a,b):
+    return a/b 
+
+a = int(input("enter the frist number :"))
+b = int(input("enter the frist number: "))
+print("addition of number",addition(a,b))
+print("aubtract of number",subtract(a,b))
+print("multiply of number",multiply(a,b))
+print("divided of number",divided(a,b))
+
+
+
+
+
+
